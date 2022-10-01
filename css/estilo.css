@@ -170,7 +170,8 @@ footer {
 /*Empieza estilo del formularo de la pag contacto*/
 .formcontacto {
   padding-top: 1px;
-  max-width: 1000px; }
+  max-width: 1000px;
+  justify-content: center !important; }
 
 .formcontacto div {
   text-decoration: none;

@@ -4,3 +4,5 @@ node_modules
 # Ignora archivos de configuración SASS
 .sass-cache
 
+# Ignora backup de css antes de usar scss
+page/estiloBCK.css
