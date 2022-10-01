@@ -2,6 +2,8 @@
 .mainservicios {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
+    align-items: center;
+    justify-content: center;
     p {
         margin-left: 50px;
     }
@@ -12,9 +14,15 @@
         margin-left: 200px;
     }
 }
+/*
 .imgnormalizada img {
-    max-width: 3000px;
+    max-width: 5000px;
     max-height: 500px;
+}
+*/
+
+#carouselServicios{
+    max-width: 1000px;
 }
 
 /*Termina estilo de la pag servicios*/

@@ -1,4 +1,9 @@
 $imgfondo: url("../img/background.jpeg");
+$estilobody:(
+    fuente: "Verdana, Geneva, Tahoma, sans-serif",
+    img:$imgfondo,
+    repeat: no-repeat,
+);
 
 @mixin alinearcentro{
     text-align: center;
@@ -20,9 +25,9 @@ html {
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image:$imgfondo;
-    background-repeat: no-repeat;
+    font-family: map-get($estilobody, fuente);
+    background-image: map-get($estilobody, img);
+    background-repeat: map-get($estilobody,repeat);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -56,8 +61,21 @@ body {
 /*Termina estilo de imagenes de la pag experiencias*/
 
 /*Empieza estilo de la pag index*/
-.noticia {
-    margin: 50px 50px 50px 50px;
+.mainindex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.parrafo1{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+.img1 {
+    margin-top: 100px;
+    background-image: url("../img/imgindex.jpg");
+    background-repeat:no-repeat ;
 }
 
 /*Termina estilo de la pag index*/

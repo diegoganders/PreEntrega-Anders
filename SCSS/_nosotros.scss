@@ -2,11 +2,9 @@
 $fuentenosotros: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 @mixin bordes {
-    border-color: white;
-    border-style: dotted;
+    border-color: rgba(238, 237, 237, 0.714);
+    border-style: ridge;
 }
-
-
 
 .mainnosotros {
     font-family: $fuentenosotros;
@@ -36,8 +34,12 @@ $fuentenosotros: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
 }
 
 .detalleCostado {
+    margin-left: 20px;
     grid-area: detalleCostado;
-    @include bordes;
+    background-image: url("../img/profilepic.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    border-radius: 10%;
 }
 
 .detalle1 {
@@ -63,6 +65,10 @@ $fuentenosotros: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
             "detalle2"
             "detalleAbajo";
     }
+}
+
+.profilepic{
+
 }
 
 /*Termina estilo de la pag nosotros*/
