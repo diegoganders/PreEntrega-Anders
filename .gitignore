@@ -6,3 +6,7 @@ node_modules
 
 # Ignora backup de css antes de usar scss
 page/estiloBCK.css
+
+# Ignora archivos json
+.package-lock.json
+.package.json

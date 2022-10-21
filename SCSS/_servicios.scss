@@ -1,11 +1,10 @@
 /*Empieza estilo de la pag servicios*/
 .mainservicios {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
     align-items: center;
     justify-content: center;
     p {
-        margin-left: 50px;
+        margin-left: 100px;
     }
     #servicios {
         padding: 100px;
@@ -14,12 +13,7 @@
         margin-left: 200px;
     }
 }
-/*
-.imgnormalizada img {
-    max-width: 5000px;
-    max-height: 500px;
-}
-*/
+
 
 #carouselServicios{
     max-width: 1000px;
