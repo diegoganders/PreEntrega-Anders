@@ -1,6 +1,6 @@
 $imgfondo: url("../img/background.jpeg");
 $estilobody:(
-    fuente: "Verdana, Geneva, Tahoma, sans-serif",
+    fuente: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif",
     img:$imgfondo,
     repeat: no-repeat,
 );
@@ -50,6 +50,10 @@ body {
 .mainclientes p {
     padding: 50px;
     margin-left: 100px;
+    h1{
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 }
 
 .divclientes {
@@ -74,7 +78,7 @@ body {
 }
 .parrafo1{
     font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 150px;
     margin-right: 5px;
 
@@ -90,6 +94,7 @@ body {
 /*Empieza estilo del formularo de la pag contacto*/
 
 .formcontacto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 1px;
     max-width: 1000px;
     justify-content: center !important;
@@ -123,6 +128,7 @@ body {
 /*Empieza grilla de page videos */
 
 .textoVideos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 40px;
     @include alinearcentro;
 }
